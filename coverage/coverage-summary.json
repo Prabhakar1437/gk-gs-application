@@ -1,0 +1,3 @@
+{"total": {"lines":{"total":117,"covered":91,"skipped":0,"pct":77.77},"statements":{"total":123,"covered":93,"skipped":0,"pct":75.6},"functions":{"total":26,"covered":15,"skipped":0,"pct":57.69},"branches":{"total":76,"covered":57,"skipped":0,"pct":75},"branchesTrue":{"total":0,"covered":0,"skipped":0,"pct":"Unknown"}}
+,"C:\\Users\\vatso\\Desktop\\GK GS application\\gk-question-app\\src\\App.jsx": {"lines":{"total":117,"covered":91,"skipped":0,"pct":77.77},"functions":{"total":26,"covered":15,"skipped":0,"pct":57.69},"statements":{"total":123,"covered":93,"skipped":0,"pct":75.6},"branches":{"total":76,"covered":57,"skipped":0,"pct":75}}
+}

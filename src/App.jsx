@@ -24,7 +24,10 @@ function App() {
   const [streak, setStreak] = useState(0);
   const [categoryStats, setCategoryStats] = useState({});
 
-  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+  const apiKey =
+  typeof process !== 'undefined' && process.env
+    ? process.env.GEMINI_API_KEY || ''
+    : '';
   const genAI = new GoogleGenerativeAI(apiKey);
   // const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
     const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
